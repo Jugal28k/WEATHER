@@ -1,0 +1,138 @@
+/* Result.css */
+
+/* Global body style */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #74ebd5, #acb6e5);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  
+  /* Main container */
+  .body {
+    text-align: center;
+    color: white;
+    width: 100%;
+  }
+  
+  /* Navigation bar */
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .navigation h1 {
+    font-size: 2rem;
+  }
+  
+  .Logout {
+    background-color: #ffffff;
+    color: #acb6e5;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .Logout:hover {
+    background-color: #acb6e5;
+    color: #ffffff;
+    transition: 0.3s ease-in-out;
+  }
+  
+  /* Form and forecast box */
+  .display {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .box2 {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 500px;
+  }
+  
+  .form2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .input1 {
+    padding: 10px;
+    width: 80%;
+    max-width: 400px;
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+    margin-bottom: 10px;
+  }
+  
+  .button1 {
+    background-color: #ffffff;
+    color: #acb6e5;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .button1:hover {
+    background-color: #acb6e5;
+    color: #ffffff;
+    transition: 0.3s ease-in-out;
+  }
+  
+  /* Forecast data */
+  .days {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .items_multiple {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    color: #ffffff;
+  }
+  
+  .items_multiple h3 {
+    margin: 5px 0;
+    font-size: 1.2rem;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .navigation {
+      flex-direction: column;
+    }
+  
+    .box2 {
+      width: 95%;
+    }
+  
+    .items_multiple {
+      max-width: 95%;
+    }
+  }
+  
